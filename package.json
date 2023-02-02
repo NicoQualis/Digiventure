@@ -1,0 +1,22 @@
+{
+  "name": "digiventure",
+  "version": "1.0.0",
+  "description": "Proyecto realizado para la POC de Digiventure",
+  "scripts": {
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
+  },
+  "author": "Nicolas Rioseco",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/browserify-preprocessor": "latest",
+    "cypress": "latest"
+  }
+}
